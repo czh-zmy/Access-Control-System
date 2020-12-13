@@ -1,0 +1,399 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.zxing.client.android.test" >
+4
+5    <uses-sdk
+5-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:5:5-74
+6        android:minSdkVersion="19"
+6-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:11:5-15:86
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:13:22-53
+13        android:label="Tests for com.google.zxing.client.android.test"
+13-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:15:22-84
+14        android:targetPackage="com.google.zxing.client.android.test" />
+14-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:12:22-82
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-65
+16-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-62
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-67
+17-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:22-64
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-66
+18-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:22-63
+19    <uses-permission android:name="android.permission.FLASHLIGHT" />
+19-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-69
+19-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-66
+20    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- unavailable in API 23 -->
+20-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-72
+20-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:22-69
+21    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+21-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-93
+21-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:22-90
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-81
+22-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:22-78
+23    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+23-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-76
+23-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:22-73
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-76
+24-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:22-73
+25
+26    <uses-feature android:name="android.hardware.camera.any" />
+26-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:5-64
+26-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:19-61
+27    <uses-feature
+27-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-41:36
+28        android:name="android.hardware.camera.autofocus"
+28-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-57
+29        android:required="false" />
+29-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-33
+30    <uses-feature
+30-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:5-44:36
+31        android:name="android.hardware.camera.flash"
+31-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-53
+32        android:required="false" />
+32-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-33
+33    <uses-feature android:name="android.hardware.screen.landscape" />
+33-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:5-70
+33-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:19-67
+34    <uses-feature
+34-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:5-48:36
+35        android:name="android.hardware.wifi"
+35-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-45
+36        android:required="false" />
+36-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-33
+37
+38    <application
+38-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:7:5-9:19
+39        android:allowBackup="true"
+39-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.0.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\ec609e8cee787e2dff3592c66b08a66a\core-1.0.0\AndroidManifest.xml:22:18-86
+41        android:debuggable="true"
+41-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:7:18-43
+42        android:icon="@drawable/launcher_icon"
+42-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:9-47
+43        android:label="@string/app_name"
+43-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:9-41
+44        android:logo="@drawable/launcher_icon"
+44-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-47
+45        android:supportsRtl="true" >
+45-->[com.facebook.android:facebook-android-sdk:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\a8e5961b4004fe1eb7dd6565b0e9c401\facebook-android-sdk-4.42.0\AndroidManifest.xml:28:18-44
+46        <uses-library android:name="android.test.runner" />
+46-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:8:9-60
+46-->D:\Doorlock\android\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7985198373162083417.xml:8:23-57
+47
+48        <activity
+48-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:9-120:20
+49            android:name="com.google.zxing.client.android.CaptureActivity"
+49-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-75
+50            android:clearTaskOnLaunch="true"
+50-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-45
+51            android:screenOrientation="sensorLandscape"
+51-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-56
+52            android:stateNotNeeded="true"
+52-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-42
+53            android:theme="@style/CaptureTheme"
+53-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-48
+54            android:windowSoftInputMode="stateAlwaysHidden" >
+54-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-60
+55            <intent-filter>
+55-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-66:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:17-69
+56-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-77
+58-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:27-74
+59            </intent-filter>
+60            <intent-filter>
+60-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-71:29
+61                <action android:name="com.google.zxing.client.android.SCAN" />
+61-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:17-79
+61-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:25-76
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-76
+63-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:27-73
+64            </intent-filter>
+65            <!-- Allow web apps to launch Barcode Scanner by linking to http://zxing.appspot.com/scan. -->
+66            <intent-filter>
+66-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-83:29
+67                <action android:name="android.intent.action.VIEW" />
+67-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-69
+67-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:25-66
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-76
+69-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:27-73
+70                <category android:name="android.intent.category.BROWSABLE" />
+70-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:17-78
+70-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:27-75
+71
+72                <data
+72-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:17-82:45
+73                    android:host="zxing.appspot.com"
+73-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:21-53
+74                    android:path="/scan"
+74-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:21-41
+75                    android:scheme="http" />
+75-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:21-42
+76            </intent-filter>
+77            <!-- We also support a Google Product Search URL. -->
+78            <intent-filter>
+78-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-95:29
+79                <action android:name="android.intent.action.VIEW" />
+79-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-69
+79-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:25-66
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-76
+81-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:27-73
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:17-78
+82-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:27-75
+83
+84                <data
+84-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:17-82:45
+85                    android:host="www.google.com"
+85-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:21-53
+86                    android:path="/m/products/scan"
+86-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:21-41
+87                    android:scheme="http" />
+87-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:21-42
+88            </intent-filter>
+89            <!-- And the UK version. -->
+90            <intent-filter>
+90-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:13-107:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-69
+91-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-76
+93-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:27-73
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:17-78
+94-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:27-75
+95
+96                <data
+96-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:17-82:45
+97                    android:host="www.google.co.uk"
+97-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:21-53
+98                    android:path="/m/products/scan"
+98-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:21-41
+99                    android:scheme="http" />
+99-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:21-42
+100            </intent-filter>
+101            <!-- Support zxing://scan/?... like iPhone app -->
+102            <intent-filter>
+102-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:13-119:29
+103                <action android:name="android.intent.action.VIEW" />
+103-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-69
+103-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:25-66
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-76
+105-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:27-73
+106                <category android:name="android.intent.category.BROWSABLE" />
+106-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:17-78
+106-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:27-75
+107
+108                <data
+108-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:17-82:45
+109                    android:host="scan"
+109-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:21-53
+110                    android:path="/"
+110-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:21-41
+111                    android:scheme="zxing" />
+111-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:21-42
+112            </intent-filter>
+113        </activity>
+114        <activity
+114-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:121:9-124:45
+115            android:name="com.google.zxing.client.android.PreferencesActivity"
+115-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:13-79
+116            android:label="@string/preferences_name"
+116-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:13-53
+117            android:stateNotNeeded="true" />
+117-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:13-42
+118        <activity
+118-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:9-149:20
+119            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+119-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:13-81
+120            android:stateNotNeeded="true" >
+120-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:127:13-42
+121            <intent-filter>
+121-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:128:13-132:29
+122                <action android:name="com.google.zxing.client.android.ENCODE" />
+122-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:129:17-81
+122-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:129:25-78
+123
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-76
+124-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:27-73
+125            </intent-filter>
+126            <!-- This allows us to handle the Share button in Contacts. -->
+127            <intent-filter>
+127-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:134:13-140:29
+128                <action android:name="android.intent.action.SEND" />
+128-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:135:17-69
+128-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:135:25-66
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-76
+130-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:27-73
+131
+132                <data android:mimeType="text/x-vcard" />
+132-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:17-82:45
+133            </intent-filter>
+134            <!-- This allows us to handle sharing any plain text . -->
+135            <intent-filter>
+135-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:142:13-148:29
+136                <action android:name="android.intent.action.SEND" />
+136-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:135:17-69
+136-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:135:25-66
+137
+138                <category android:name="android.intent.category.DEFAULT" />
+138-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-76
+138-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:27-73
+139
+140                <data android:mimeType="text/plain" />
+140-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:17-82:45
+141            </intent-filter>
+142        </activity>
+143        <activity
+143-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:150:9-160:20
+144            android:name="com.google.zxing.client.android.book.SearchBookContentsActivity"
+144-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:151:13-91
+145            android:label="@string/sbc_name"
+145-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:152:13-45
+146            android:screenOrientation="sensorLandscape"
+146-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:153:13-56
+147            android:stateNotNeeded="true" >
+147-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:154:13-42
+148            <intent-filter>
+148-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:155:13-159:29
+149                <action android:name="com.google.zxing.client.android.SEARCH_BOOK_CONTENTS" />
+149-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:156:17-95
+149-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:156:25-92
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-76
+151-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:27-73
+152            </intent-filter>
+153        </activity>
+154        <activity
+154-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:161:9-170:20
+155            android:name="com.google.zxing.client.android.share.ShareActivity"
+155-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:162:13-79
+156            android:screenOrientation="user"
+156-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:163:13-45
+157            android:stateNotNeeded="true" >
+157-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:164:13-42
+158            <intent-filter>
+158-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:165:13-169:29
+159                <action android:name="com.google.zxing.client.android.SHARE" />
+159-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:166:17-80
+159-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:166:25-77
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-76
+161-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:27-73
+162            </intent-filter>
+163        </activity>
+164        <activity
+164-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:171:9-174:45
+165            android:name="com.google.zxing.client.android.history.HistoryActivity"
+165-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:172:13-83
+166            android:label="@string/history_title"
+166-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:173:13-50
+167            android:stateNotNeeded="true" />
+167-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:174:13-42
+168        <activity
+168-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:175:9-178:45
+169            android:name="com.google.zxing.client.android.share.BookmarkPickerActivity"
+169-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:176:13-88
+170            android:label="@string/bookmark_picker_name"
+170-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:177:13-57
+171            android:stateNotNeeded="true" />
+171-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:178:13-42
+172        <activity
+172-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:179:9-182:45
+173            android:name="com.google.zxing.client.android.share.AppPickerActivity"
+173-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:180:13-83
+174            android:label="@string/app_picker_name"
+174-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:181:13-52
+175            android:stateNotNeeded="true" />
+175-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:182:13-42
+176        <activity
+176-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:183:9-187:45
+177            android:name="com.google.zxing.client.android.HelpActivity"
+177-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:184:13-72
+178            android:label="@string/menu_help"
+178-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:185:13-46
+179            android:screenOrientation="user"
+179-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:186:13-45
+180            android:stateNotNeeded="true" />
+180-->[__tested_artifact__::android] D:\Doorlock\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:187:13-42
+181        <activity
+181-->[com.facebook.android:facebook-common:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\fa7163ab22ed12043723d11f712654d5\jetified-facebook-common-4.42.0\AndroidManifest.xml:29:9-32:66
+182            android:name="com.facebook.FacebookActivity"
+182-->[com.facebook.android:facebook-common:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\fa7163ab22ed12043723d11f712654d5\jetified-facebook-common-4.42.0\AndroidManifest.xml:30:13-57
+183            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+183-->[com.facebook.android:facebook-common:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\fa7163ab22ed12043723d11f712654d5\jetified-facebook-common-4.42.0\AndroidManifest.xml:31:13-96
+184            android:theme="@style/com_facebook_activity_theme" />
+184-->[com.facebook.android:facebook-common:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\fa7163ab22ed12043723d11f712654d5\jetified-facebook-common-4.42.0\AndroidManifest.xml:32:13-63
+185        <activity android:name="com.facebook.CustomTabMainActivity" />
+185-->[com.facebook.android:facebook-common:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\fa7163ab22ed12043723d11f712654d5\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:9-71
+185-->[com.facebook.android:facebook-common:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\fa7163ab22ed12043723d11f712654d5\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:19-68
+186        <activity android:name="com.facebook.CustomTabActivity" />
+186-->[com.facebook.android:facebook-common:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\fa7163ab22ed12043723d11f712654d5\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:9-67
+186-->[com.facebook.android:facebook-common:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\fa7163ab22ed12043723d11f712654d5\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:19-64
+187        <!--
+188         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+189         with the application context. This config is merged in with the host app's manifest,
+190         but there can only be one provider with the same authority activated at any given
+191         point; so if the end user has two or more different apps that use Facebook SDK, only the
+192         first one will be able to use the provider. To work around this problem, we use the
+193         following placeholder in the authority to identify each host application as if it was
+194         a completely different provider.
+195        -->
+196        <provider
+196-->[com.facebook.android:facebook-core:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\885b5bb0bd8449c77a4cf31eedd39c7c\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
+197            android:name="com.facebook.internal.FacebookInitProvider"
+197-->[com.facebook.android:facebook-core:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\885b5bb0bd8449c77a4cf31eedd39c7c\jetified-facebook-core-4.42.0\AndroidManifest.xml:40:13-70
+198            android:authorities="com.google.zxing.client.android.test.FacebookInitProvider"
+198-->[com.facebook.android:facebook-core:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\885b5bb0bd8449c77a4cf31eedd39c7c\jetified-facebook-core-4.42.0\AndroidManifest.xml:41:13-72
+199            android:exported="false" />
+199-->[com.facebook.android:facebook-core:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\885b5bb0bd8449c77a4cf31eedd39c7c\jetified-facebook-core-4.42.0\AndroidManifest.xml:42:13-37
+200
+201        <receiver
+201-->[com.facebook.android:facebook-core:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\885b5bb0bd8449c77a4cf31eedd39c7c\jetified-facebook-core-4.42.0\AndroidManifest.xml:44:9-50:20
+202            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+202-->[com.facebook.android:facebook-core:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\885b5bb0bd8449c77a4cf31eedd39c7c\jetified-facebook-core-4.42.0\AndroidManifest.xml:45:13-86
+203            android:exported="false" >
+203-->[com.facebook.android:facebook-core:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\885b5bb0bd8449c77a4cf31eedd39c7c\jetified-facebook-core-4.42.0\AndroidManifest.xml:46:13-37
+204            <intent-filter>
+204-->[com.facebook.android:facebook-core:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\885b5bb0bd8449c77a4cf31eedd39c7c\jetified-facebook-core-4.42.0\AndroidManifest.xml:47:13-49:29
+205                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+205-->[com.facebook.android:facebook-core:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\885b5bb0bd8449c77a4cf31eedd39c7c\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:17-95
+205-->[com.facebook.android:facebook-core:4.42.0] C:\Users\CZH\.gradle\caches\transforms-2\files-2.1\885b5bb0bd8449c77a4cf31eedd39c7c\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:25-92
+206            </intent-filter>
+207        </receiver>
+208    </application>
+209
+210</manifest>

@@ -1,0 +1,351 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2008 ZXing authors
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9      http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.google.zxing.client.android"
+19    android:installLocation="auto"
+20    android:versionCode="108"
+21    android:versionName="4.7.8" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="19"
+24-->D:\Doorlock\android\src\main\AndroidManifest.xml
+25        android:targetSdkVersion="29" />
+25-->D:\Doorlock\android\src\main\AndroidManifest.xml
+26
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->D:\Doorlock\android\src\main\AndroidManifest.xml:23:3-62
+27-->D:\Doorlock\android\src\main\AndroidManifest.xml:23:20-60
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->D:\Doorlock\android\src\main\AndroidManifest.xml:24:3-64
+28-->D:\Doorlock\android\src\main\AndroidManifest.xml:24:20-62
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->D:\Doorlock\android\src\main\AndroidManifest.xml:25:3-63
+29-->D:\Doorlock\android\src\main\AndroidManifest.xml:25:20-61
+30    <uses-permission android:name="android.permission.FLASHLIGHT" />
+30-->D:\Doorlock\android\src\main\AndroidManifest.xml:26:3-66
+30-->D:\Doorlock\android\src\main\AndroidManifest.xml:26:20-64
+31    <uses-permission android:name="android.permission.READ_CONTACTS" />
+31-->D:\Doorlock\android\src\main\AndroidManifest.xml:27:3-69
+31-->D:\Doorlock\android\src\main\AndroidManifest.xml:27:20-67
+32    <!-- unavailable in API 23 -->
+33    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+33-->D:\Doorlock\android\src\main\AndroidManifest.xml:29:3-90
+33-->D:\Doorlock\android\src\main\AndroidManifest.xml:29:20-88
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->D:\Doorlock\android\src\main\AndroidManifest.xml:30:3-78
+34-->D:\Doorlock\android\src\main\AndroidManifest.xml:30:20-76
+35    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+35-->D:\Doorlock\android\src\main\AndroidManifest.xml:31:3-73
+35-->D:\Doorlock\android\src\main\AndroidManifest.xml:31:20-71
+36    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+36-->D:\Doorlock\android\src\main\AndroidManifest.xml:32:3-73
+36-->D:\Doorlock\android\src\main\AndroidManifest.xml:32:20-71
+37
+38    <uses-feature android:name="android.hardware.camera.any" />
+38-->D:\Doorlock\android\src\main\AndroidManifest.xml:35:3-61
+38-->D:\Doorlock\android\src\main\AndroidManifest.xml:35:17-59
+39    <uses-feature
+39-->D:\Doorlock\android\src\main\AndroidManifest.xml:36:3-92
+40        android:name="android.hardware.camera.autofocus"
+40-->D:\Doorlock\android\src\main\AndroidManifest.xml:36:17-65
+41        android:required="false" />
+41-->D:\Doorlock\android\src\main\AndroidManifest.xml:36:66-90
+42    <uses-feature
+42-->D:\Doorlock\android\src\main\AndroidManifest.xml:37:3-88
+43        android:name="android.hardware.camera.flash"
+43-->D:\Doorlock\android\src\main\AndroidManifest.xml:37:17-61
+44        android:required="false" />
+44-->D:\Doorlock\android\src\main\AndroidManifest.xml:37:62-86
+45    <uses-feature android:name="android.hardware.screen.landscape" />
+45-->D:\Doorlock\android\src\main\AndroidManifest.xml:38:3-67
+45-->D:\Doorlock\android\src\main\AndroidManifest.xml:38:17-65
+46    <uses-feature
+46-->D:\Doorlock\android\src\main\AndroidManifest.xml:39:3-80
+47        android:name="android.hardware.wifi"
+47-->D:\Doorlock\android\src\main\AndroidManifest.xml:39:17-53
+48        android:required="false" />
+48-->D:\Doorlock\android\src\main\AndroidManifest.xml:39:54-78
+49
+50    <application
+50-->D:\Doorlock\android\src\main\AndroidManifest.xml:41:3-140:17
+51        android:allowBackup="true"
+51-->D:\Doorlock\android\src\main\AndroidManifest.xml:44:16-42
+52        android:icon="@drawable/launcher_icon"
+52-->D:\Doorlock\android\src\main\AndroidManifest.xml:41:16-54
+53        android:label="@string/app_name"
+53-->D:\Doorlock\android\src\main\AndroidManifest.xml:43:16-48
+54        android:logo="@drawable/launcher_icon" >
+54-->D:\Doorlock\android\src\main\AndroidManifest.xml:42:16-54
+55        <activity
+55-->D:\Doorlock\android\src\main\AndroidManifest.xml:45:5-87:16
+56            android:name="com.google.zxing.client.android.CaptureActivity"
+56-->D:\Doorlock\android\src\main\AndroidManifest.xml:45:15-46
+57            android:clearTaskOnLaunch="true"
+57-->D:\Doorlock\android\src\main\AndroidManifest.xml:47:15-47
+58            android:screenOrientation="sensorLandscape"
+58-->D:\Doorlock\android\src\main\AndroidManifest.xml:46:15-58
+59            android:stateNotNeeded="true"
+59-->D:\Doorlock\android\src\main\AndroidManifest.xml:48:15-44
+60            android:theme="@style/CaptureTheme"
+60-->D:\Doorlock\android\src\main\AndroidManifest.xml:49:15-50
+61            android:windowSoftInputMode="stateAlwaysHidden" >
+61-->D:\Doorlock\android\src\main\AndroidManifest.xml:50:15-62
+62            <intent-filter>
+62-->D:\Doorlock\android\src\main\AndroidManifest.xml:51:7-54:23
+63                <action android:name="android.intent.action.MAIN" />
+63-->D:\Doorlock\android\src\main\AndroidManifest.xml:52:9-60
+63-->D:\Doorlock\android\src\main\AndroidManifest.xml:52:17-58
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->D:\Doorlock\android\src\main\AndroidManifest.xml:53:9-68
+65-->D:\Doorlock\android\src\main\AndroidManifest.xml:53:19-66
+66            </intent-filter>
+67            <intent-filter>
+67-->D:\Doorlock\android\src\main\AndroidManifest.xml:55:7-58:23
+68                <action android:name="com.google.zxing.client.android.SCAN" />
+68-->D:\Doorlock\android\src\main\AndroidManifest.xml:56:9-70
+68-->D:\Doorlock\android\src\main\AndroidManifest.xml:56:17-68
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:9-67
+70-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:19-65
+71            </intent-filter>
+72            <!-- Allow web apps to launch Barcode Scanner by linking to http://zxing.appspot.com/scan. -->
+73            <intent-filter>
+73-->D:\Doorlock\android\src\main\AndroidManifest.xml:60:7-65:23
+74                <action android:name="android.intent.action.VIEW" />
+74-->D:\Doorlock\android\src\main\AndroidManifest.xml:61:9-60
+74-->D:\Doorlock\android\src\main\AndroidManifest.xml:61:17-58
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:9-67
+76-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:19-65
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->D:\Doorlock\android\src\main\AndroidManifest.xml:63:9-69
+77-->D:\Doorlock\android\src\main\AndroidManifest.xml:63:19-67
+78
+79                <data
+79-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:9-92
+80                    android:host="zxing.appspot.com"
+80-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:37-69
+81                    android:path="/scan"
+81-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:70-90
+82                    android:scheme="http" />
+82-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:15-36
+83            </intent-filter>
+84            <!-- We also support a Google Product Search URL. -->
+85            <intent-filter>
+85-->D:\Doorlock\android\src\main\AndroidManifest.xml:67:7-72:23
+86                <action android:name="android.intent.action.VIEW" />
+86-->D:\Doorlock\android\src\main\AndroidManifest.xml:61:9-60
+86-->D:\Doorlock\android\src\main\AndroidManifest.xml:61:17-58
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:9-67
+88-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:19-65
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->D:\Doorlock\android\src\main\AndroidManifest.xml:63:9-69
+89-->D:\Doorlock\android\src\main\AndroidManifest.xml:63:19-67
+90
+91                <data
+91-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:9-92
+92                    android:host="www.google.com"
+92-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:37-69
+93                    android:path="/m/products/scan"
+93-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:70-90
+94                    android:scheme="http" />
+94-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:15-36
+95            </intent-filter>
+96            <!-- And the UK version. -->
+97            <intent-filter>
+97-->D:\Doorlock\android\src\main\AndroidManifest.xml:74:7-79:23
+98                <action android:name="android.intent.action.VIEW" />
+98-->D:\Doorlock\android\src\main\AndroidManifest.xml:61:9-60
+98-->D:\Doorlock\android\src\main\AndroidManifest.xml:61:17-58
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:9-67
+100-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:19-65
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->D:\Doorlock\android\src\main\AndroidManifest.xml:63:9-69
+101-->D:\Doorlock\android\src\main\AndroidManifest.xml:63:19-67
+102
+103                <data
+103-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:9-92
+104                    android:host="www.google.co.uk"
+104-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:37-69
+105                    android:path="/m/products/scan"
+105-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:70-90
+106                    android:scheme="http" />
+106-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:15-36
+107            </intent-filter>
+108            <!-- Support zxing://scan/?... like iPhone app -->
+109            <intent-filter>
+109-->D:\Doorlock\android\src\main\AndroidManifest.xml:81:7-86:23
+110                <action android:name="android.intent.action.VIEW" />
+110-->D:\Doorlock\android\src\main\AndroidManifest.xml:61:9-60
+110-->D:\Doorlock\android\src\main\AndroidManifest.xml:61:17-58
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:9-67
+112-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:19-65
+113                <category android:name="android.intent.category.BROWSABLE" />
+113-->D:\Doorlock\android\src\main\AndroidManifest.xml:63:9-69
+113-->D:\Doorlock\android\src\main\AndroidManifest.xml:63:19-67
+114
+115                <data
+115-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:9-92
+116                    android:host="scan"
+116-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:37-69
+117                    android:path="/"
+117-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:70-90
+118                    android:scheme="zxing" />
+118-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:15-36
+119            </intent-filter>
+120        </activity>
+121        <activity
+121-->D:\Doorlock\android\src\main\AndroidManifest.xml:88:5-90:46
+122            android:name="com.google.zxing.client.android.PreferencesActivity"
+122-->D:\Doorlock\android\src\main\AndroidManifest.xml:88:15-50
+123            android:label="@string/preferences_name"
+123-->D:\Doorlock\android\src\main\AndroidManifest.xml:89:15-55
+124            android:stateNotNeeded="true" />
+124-->D:\Doorlock\android\src\main\AndroidManifest.xml:90:15-44
+125        <activity
+125-->D:\Doorlock\android\src\main\AndroidManifest.xml:91:5-109:16
+126            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+126-->D:\Doorlock\android\src\main\AndroidManifest.xml:91:15-52
+127            android:stateNotNeeded="true" >
+127-->D:\Doorlock\android\src\main\AndroidManifest.xml:92:15-44
+128            <intent-filter>
+128-->D:\Doorlock\android\src\main\AndroidManifest.xml:93:7-96:23
+129                <action android:name="com.google.zxing.client.android.ENCODE" />
+129-->D:\Doorlock\android\src\main\AndroidManifest.xml:94:9-72
+129-->D:\Doorlock\android\src\main\AndroidManifest.xml:94:17-70
+130
+131                <category android:name="android.intent.category.DEFAULT" />
+131-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:9-67
+131-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:19-65
+132            </intent-filter>
+133            <!-- This allows us to handle the Share button in Contacts. -->
+134            <intent-filter>
+134-->D:\Doorlock\android\src\main\AndroidManifest.xml:98:7-102:23
+135                <action android:name="android.intent.action.SEND" />
+135-->D:\Doorlock\android\src\main\AndroidManifest.xml:99:9-60
+135-->D:\Doorlock\android\src\main\AndroidManifest.xml:99:17-58
+136
+137                <category android:name="android.intent.category.DEFAULT" />
+137-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:9-67
+137-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:19-65
+138
+139                <data android:mimeType="text/x-vcard" />
+139-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:9-92
+139-->D:\Doorlock\android\src\main\AndroidManifest.xml:101:15-46
+140            </intent-filter>
+141            <!-- This allows us to handle sharing any plain text . -->
+142            <intent-filter>
+142-->D:\Doorlock\android\src\main\AndroidManifest.xml:104:7-108:23
+143                <action android:name="android.intent.action.SEND" />
+143-->D:\Doorlock\android\src\main\AndroidManifest.xml:99:9-60
+143-->D:\Doorlock\android\src\main\AndroidManifest.xml:99:17-58
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:9-67
+145-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:19-65
+146
+147                <data android:mimeType="text/plain" />
+147-->D:\Doorlock\android\src\main\AndroidManifest.xml:64:9-92
+147-->D:\Doorlock\android\src\main\AndroidManifest.xml:101:15-46
+148            </intent-filter>
+149        </activity>
+150        <activity
+150-->D:\Doorlock\android\src\main\AndroidManifest.xml:110:5-118:16
+151            android:name="com.google.zxing.client.android.book.SearchBookContentsActivity"
+151-->D:\Doorlock\android\src\main\AndroidManifest.xml:110:15-62
+152            android:label="@string/sbc_name"
+152-->D:\Doorlock\android\src\main\AndroidManifest.xml:111:15-47
+153            android:screenOrientation="sensorLandscape"
+153-->D:\Doorlock\android\src\main\AndroidManifest.xml:113:15-58
+154            android:stateNotNeeded="true" >
+154-->D:\Doorlock\android\src\main\AndroidManifest.xml:112:15-44
+155            <intent-filter>
+155-->D:\Doorlock\android\src\main\AndroidManifest.xml:114:7-117:23
+156                <action android:name="com.google.zxing.client.android.SEARCH_BOOK_CONTENTS" />
+156-->D:\Doorlock\android\src\main\AndroidManifest.xml:115:9-86
+156-->D:\Doorlock\android\src\main\AndroidManifest.xml:115:17-84
+157
+158                <category android:name="android.intent.category.DEFAULT" />
+158-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:9-67
+158-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:19-65
+159            </intent-filter>
+160        </activity>
+161        <activity
+161-->D:\Doorlock\android\src\main\AndroidManifest.xml:119:5-126:16
+162            android:name="com.google.zxing.client.android.share.ShareActivity"
+162-->D:\Doorlock\android\src\main\AndroidManifest.xml:119:15-50
+163            android:screenOrientation="user"
+163-->D:\Doorlock\android\src\main\AndroidManifest.xml:121:15-47
+164            android:stateNotNeeded="true" >
+164-->D:\Doorlock\android\src\main\AndroidManifest.xml:120:15-44
+165            <intent-filter>
+165-->D:\Doorlock\android\src\main\AndroidManifest.xml:122:7-125:23
+166                <action android:name="com.google.zxing.client.android.SHARE" />
+166-->D:\Doorlock\android\src\main\AndroidManifest.xml:123:9-71
+166-->D:\Doorlock\android\src\main\AndroidManifest.xml:123:17-69
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+168-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:9-67
+168-->D:\Doorlock\android\src\main\AndroidManifest.xml:57:19-65
+169            </intent-filter>
+170        </activity>
+171        <activity
+171-->D:\Doorlock\android\src\main\AndroidManifest.xml:127:5-129:46
+172            android:name="com.google.zxing.client.android.history.HistoryActivity"
+172-->D:\Doorlock\android\src\main\AndroidManifest.xml:127:15-54
+173            android:label="@string/history_title"
+173-->D:\Doorlock\android\src\main\AndroidManifest.xml:128:15-52
+174            android:stateNotNeeded="true" />
+174-->D:\Doorlock\android\src\main\AndroidManifest.xml:129:15-44
+175        <activity
+175-->D:\Doorlock\android\src\main\AndroidManifest.xml:130:5-132:46
+176            android:name="com.google.zxing.client.android.share.BookmarkPickerActivity"
+176-->D:\Doorlock\android\src\main\AndroidManifest.xml:130:15-59
+177            android:label="@string/bookmark_picker_name"
+177-->D:\Doorlock\android\src\main\AndroidManifest.xml:131:15-59
+178            android:stateNotNeeded="true" />
+178-->D:\Doorlock\android\src\main\AndroidManifest.xml:132:15-44
+179        <activity
+179-->D:\Doorlock\android\src\main\AndroidManifest.xml:133:5-135:46
+180            android:name="com.google.zxing.client.android.share.AppPickerActivity"
+180-->D:\Doorlock\android\src\main\AndroidManifest.xml:133:15-54
+181            android:label="@string/app_picker_name"
+181-->D:\Doorlock\android\src\main\AndroidManifest.xml:134:15-54
+182            android:stateNotNeeded="true" />
+182-->D:\Doorlock\android\src\main\AndroidManifest.xml:135:15-44
+183        <activity
+183-->D:\Doorlock\android\src\main\AndroidManifest.xml:136:5-139:46
+184            android:name="com.google.zxing.client.android.HelpActivity"
+184-->D:\Doorlock\android\src\main\AndroidManifest.xml:136:15-43
+185            android:label="@string/menu_help"
+185-->D:\Doorlock\android\src\main\AndroidManifest.xml:137:15-48
+186            android:screenOrientation="user"
+186-->D:\Doorlock\android\src\main\AndroidManifest.xml:138:15-47
+187            android:stateNotNeeded="true" />
+187-->D:\Doorlock\android\src\main\AndroidManifest.xml:139:15-44
+188    </application>
+189
+190</manifest>
